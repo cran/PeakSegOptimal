@@ -1,6 +1,6 @@
-fb887dc8aaa5930cd45ce3d424d22530 *DESCRIPTION
+031cdb0eacac19c08cabeea58aac9e00 *DESCRIPTION
 4d4d853a1601398a699993f4d585e02e *NAMESPACE
-3a2af9484ba00b9ca48cbbf535de7c79 *NEWS
+661491f7f735c31cd9fe6cbf8990571d *NEWS
 1c4871668570aefa6f28262dc6e3ed03 *R/PeakSegFPOP.R
 f523b5a9fa306646bcaf9570a83e2e97 *R/PeakSegPDPA.R
 e6804a90f52bdb99dd910beef93dbd37 *R/PoissonLoss.R
@@ -17,14 +17,13 @@ be5813442057cac36a61b421c271ecd3 *man/H3K4me3_XJ_immune_chunk1.Rd
 67f1beb4a7be105be179320e39b7993b *man/PoissonLoss.Rd
 2153fbb8905d1ed757bed216f35c4344 *man/oracleModelComplexity.Rd
 f29cba99877dafb8819aee0f8b2aea31 *src/Makevars
-6bc52088cc1ef8032630b9a3c425a812 *src/PeakSegFPOPLog.cpp
+3f3e7d1c4dc8c89cb088b203547c46e4 *src/PeakSegFPOPLog.cpp
 e5883c212d2d84f51e9c3db1285c9158 *src/PeakSegFPOPLog.h
-3783a7b5047904e78bf1a8cab801eb91 *src/PeakSegPDPALog.cpp
+c711bfae7118386341fabe07181e6b11 *src/PeakSegPDPALog.cpp
 690c3a4975b142b441c80f57e7aab14c *src/PeakSegPDPALog.h
-aed029cacf86955ca5ea2f61677a21d1 *src/funPieceListLog.cpp
+bda9a8a3ba22aca75ff61f9bbd31ae87 *src/funPieceListLog.cpp
 4052f5f6ebda86af5c3f35abf2fef724 *src/funPieceListLog.h
 03f1d5ed203a267bd5ccc6bc50518ac2 *src/interface.cpp
-d41d8cd98f00b204e9800998ecf8427e *tests/test/overlapping/labels.bed
 20cfc5f6561eefdb5ab360f1e4ec2c24 *tests/testthat.R
 7b8dd3980c392511b7903d6a36d15f04 *tests/testthat/plot.R
 437cee29593db01c6cbfd9ecb5ee5fe9 *tests/testthat/test-PeakSegFPOP.R

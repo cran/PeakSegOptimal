@@ -1,4 +1,4 @@
-ac9b4c74accf8097160b14d3a84dbb6b *DESCRIPTION
+3907a4845a12d32cef36d61990434069 *DESCRIPTION
 4d4d853a1601398a699993f4d585e02e *NAMESPACE
 5073f068b96d0acfd60a7fbeab9c8ab3 *NEWS
 1c4871668570aefa6f28262dc6e3ed03 *R/PeakSegFPOP.R
@@ -24,8 +24,8 @@ e5883c212d2d84f51e9c3db1285c9158 *src/PeakSegFPOPLog.h
 bda9a8a3ba22aca75ff61f9bbd31ae87 *src/funPieceListLog.cpp
 4052f5f6ebda86af5c3f35abf2fef724 *src/funPieceListLog.h
 03f1d5ed203a267bd5ccc6bc50518ac2 *src/interface.cpp
+d41d8cd98f00b204e9800998ecf8427e *tests/test/overlapping/labels.bed
 20cfc5f6561eefdb5ab360f1e4ec2c24 *tests/testthat.R
-7b8dd3980c392511b7903d6a36d15f04 *tests/testthat/plot.R
 437cee29593db01c6cbfd9ecb5ee5fe9 *tests/testthat/test-PeakSegFPOP.R
 2ddd37cf3c6b6ca3bb5c1a9b2244e7f1 *tests/testthat/test-PeakSegPDPA.R
 a6d9cb824e70b30f0fcd17cdde701830 *tests/testthat/test-PeakSegPDPAInf.R

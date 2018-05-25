@@ -1,7 +1,7 @@
 Package: PeakSegOptimal
 Maintainer: Toby Dylan Hocking <toby.hocking@r-project.org>
 Author: Toby Dylan Hocking
-Version: 2017.07.12
+Version: 2018.05.25
 License: GPL-3
 Title: Optimal Segmentation Subject to Up-Down Constraints
 Description: Computes optimal changepoint models using the
@@ -16,6 +16,6 @@ Imports: penaltyLearning
 Suggests: PeakSegDP (>= 2016.08.06), ggplot2, testthat, data.table (>=
         1.9.8)
 NeedsCompilation: yes
-Packaged: 2017-07-12 12:54:50 UTC; thocking
+Packaged: 2018-05-25 13:26:11 UTC; tdhock
 Repository: CRAN
-Date/Publication: 2017-07-12 19:42:14 UTC
+Date/Publication: 2018-05-25 15:50:28 UTC

@@ -1,10 +1,15 @@
-Changes in version 2024.1.24
+Changes in version 2024.10.1
 
-- update NEWS and Rd files for CRAN.
+- Rf_error in src/interface.cpp, thanks CRAN.
 
 Changes in version 2019.12.4
 
 - update tests.
+
+Changes in version 2018.12.11
+
+- Author: PR#21
+- Error for constant data.
 
 Changes in version 2017.07.12
 

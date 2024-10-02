@@ -18,7 +18,7 @@ modelSelection.feasible describes the set of all linear penalty
 modelSelection.decreasing selects from all models that decrease
 the Poisson loss relative to simpler models (same as \code{\link{PeakSegFPOP}}).}
 
-\author{Toby Dylan Hocking}
+\author{Toby Dylan Hocking <toby.hocking@r-project.org> [aut, cre]}
 
 
 

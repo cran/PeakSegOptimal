@@ -16,7 +16,7 @@ peaks, larger for fewer peaks).}
 segmentation model, loss summarizes the penalized \code{\link{PoissonLoss}} and
 feasibilty of the computed model.}
 
-\author{Toby Dylan Hocking}
+\author{Toby Dylan Hocking <toby.hocking@r-project.org> [aut, cre]}
 
 
 

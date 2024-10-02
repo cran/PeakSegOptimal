@@ -3,24 +3,20 @@ PeakSegPDPA <- structure(function
 ### PeakSeg constraint. For N data points and S segments, the
 ### functional pruning algorithm is O(S*NlogN) space and O(S*NlogN)
 ### time. It recovers the exact solution to the following optimization
-### problem. Let Z be an N-vector of count data (\code{count.vec},
+### problem. Let Z be an N-vector of count data (count.vec,
 ### non-negative integers) and let W be an N-vector of positive
-### weights (\code{weight.vec}). Find the N-vector M of real numbers (segment
-### means) and (N-1)-vector C of change-point indicators in \eqn{\{-1,0,1\}}
-### which minimize the Poisson Loss,
-### \eqn{\sum_{i=1}^N w_i*[m_i-z_i*\log(m_i)]},
-### subject to constraints:
-### (1) there are exactly S-1 non-zero elements of C, and
-### (2) the first change is up and the next change is down, etc
-### (\eqn{\sum_{i=1}^t c_i in \{0,1\} \forall t<N}), and
-### (3) Every zero-valued change-point variable has an equal
-### segment mean after: \eqn{c_i=0} implies \eqn{m_i=m_{i+1}},
-### (4) every positive-valued change-point variable may have an up change after:
-### \eqn{c_i=1} implies \eqn{m_i<=m_{i+1}},
-### (5) every negative-valued change-point
-### variable may have a down change after:
-### \eqn{c_i=-1} implies \eqn{m_i>=m_{i+1}}.
-### Note that when the equality constraints are active
+### weights (weight.vec). Find the N-vector M of real numbers (segment
+### means) and (N-1)-vector C of change-point indicators in -1,0,1
+### which minimize the Poisson Loss, sum_[i=1]^N
+### w_i*[m_i-z_i*log(m_i)], subject to constraints: (1) there are
+### exactly S-1 non-zero elements of C, and (2) the first change is up
+### and the next change is down, etc (sum_[i=1]^t c_i in 0,1 for all
+### t<N), and (3) Every zero-valued change-point variable has an equal
+### segment mean after: c_i=0 implies m_i=m_[i+1], (4) every
+### positive-valued change-point variable may have an up change after:
+### c_i=1 implies m_i<=m_[i+1], (5) every negative-valued change-point
+### variable may have a down change after: c_i=-1 implies
+### m_i>=m_[i+1]. Note that when the equality constraints are active
 ### for non-zero change-point variables, the recovered model is not
 ### feasible for the strict inequality constraints of the PeakSeg
 ### problem, and the optimum of the PeakSeg problem is undefined.

@@ -9,15 +9,17 @@ N-vector of count data (\code{count.vec}, non-negative integers), let W
 be an N-vector of positive weights (\code{weight.vec}), and let \code{penalty}
 be a non-negative real number. Find the N-vector M of real numbers
 (segment means) and (N-1)-vector C of change-point indicators in
-\eqn{\{-1,0,1\}} which minimize the penalized Poisson Loss,
-\eqn{\text{penalty}*\sum_{i=1}^{N_1} I(c_i=1) + \sum_{i=1}^N w_i*[m_i-z_i*\log(m_i)]}, subject to constraints: (1) the first
-change is up and the next change is down, etc (\eqn{\sum_{i=1}^t c_i \in \{0,1\} \forall t<N-1}), and (2) the last change is down
-\eqn{0=\sum_{i=1}^{N-1}c_i}, and (3) Every zero-valued change-point
-variable has an equal segment mean after: \eqn{c_i=0} implies
-\eqn{m_i=m_{i+1}}, (4) every positive-valued change-point variable may
-have an up change after: \eqn{c_i=1} implies \eqn{m_i<=m_{i+1}}, (5) every
+-1,0,1 which minimize the penalized Poisson Loss,
+penalty*sum_[i=1]^[N_1] I(c_i=1) + sum_[i=1]^N
+w_i*[m_i-z_i*log(m_i)], subject to constraints: (1) the first
+change is up and the next change is down, etc (sum_[i=1]^t c_i in
+0,1 for all t<N-1), and (2) the last change is down
+0=sum_[i=1]^[N-1] c_i, and (3) Every zero-valued change-point
+variable has an equal segment mean after: c_i=0 implies
+m_i=m_[i+1], (4) every positive-valued change-point variable may
+have an up change after: c_i=1 implies m_i<=m_[i+1], (5) every
 negative-valued change-point variable may have a down change
-after: \eqn{c_i=-1} implies \eqn{m_i>=m_{i+1}}. Note that when the equality
+after: c_i=-1 implies m_i>=m_[i+1]. Note that when the equality
 constraints are active for non-zero change-point variables, the
 recovered model is not feasible for the strict inequality
 constraints of the PeakSeg problem, and the optimum of the PeakSeg
@@ -40,7 +42,7 @@ segment means), intervals.mat (number of intervals stored by the
 functional pruning algorithm). To recover the solution in terms of
 (M,C) variables, see the example.}
 
-\author{Toby Dylan Hocking}
+\author{Toby Dylan Hocking <toby.hocking@r-project.org> [aut, cre]}
 
 
 

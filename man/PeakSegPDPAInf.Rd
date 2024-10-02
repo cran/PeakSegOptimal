@@ -23,7 +23,7 @@ ends.mat (optimal position of segment ends, 1-indexed), mean.mat
 by the functional pruning algorithm). To recover the solution in
 terms of (M,C) variables, see the example.}
 
-\author{Toby Dylan Hocking}
+\author{Toby Dylan Hocking <toby.hocking@r-project.org> [aut, cre]}
 
 
 
